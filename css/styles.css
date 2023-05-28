@@ -1,0 +1,200 @@
+*{
+
+}
+.Menu{
+    width: 99%;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: aliceblue;
+    gap: 0.5rem;
+}
+.Menu a{
+    width: 20%;
+    text-decoration: none;
+    align-self: center;
+    padding: 1px 1px ; 
+    text-align: center;
+}
+@media(min-width: 768px) {
+    .Menu{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px 10px;
+        background-color: aliceblue;
+    }
+    .Menu a{
+        width: 12%;
+        text-decoration: none;
+        align-self: center;
+        justify-content: space-around;
+        margin-left: 20px;
+        padding: 1px 1px ; 
+        text-align: center;
+    }
+}
+
+
+.logo{
+    width: 98%;
+    padding: 20px 20px;
+    align-items: center;
+}
+.Menu a:hover{
+    background-color: orange;
+    border-radius: 20px;
+}
+.Slide1{
+    display: flex;
+    padding: 1rem;
+}
+.SlideInterno{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+    height: 380px;
+    overflow: hidden; /**Desbordado oculto**/
+}
+@media(min-width: 768px) {
+    .Slide1{
+        display: flex;
+        width: 100%;
+        padding: 20px;
+    }
+    .SlideInterno{
+        max-width: 800px;
+        width: 25%;
+        height: 380px;
+        overflow: hidden; /**Desbordado oculto**/
+        position: relative;
+        margin-left: 40%;
+        padding-left: 2px;
+    }
+}
+
+
+.SlideInterno a{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    display: none;
+}
+.SlideInterno a:first-child{
+    display: block;
+}
+.Recomendado {
+    width: 100%;
+    display: grid;
+}
+@media(min-width: 768px) {
+    .Recomendado {
+        width: 98%;
+        display: grid ;
+        grid-template-rows:    repeat(4, 100px);
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.Productos{
+    width: 50%;
+    height: 300px;
+    background-color: orange;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 30%;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+}
+p{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.Productos img{
+    max-width: 800px;
+    width: 90%;
+    height: 220px;
+    padding-left: 20px;
+}
+.Slide1{
+    display: flex;
+    padding: 1rem;
+}
+.SlideInterno{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+    height: 380px;
+    overflow: hidden; /**Desbordado oculto**/
+}
+.SlideCarro{
+    width: 100%;
+    height: 800px;
+    overflow: hidden; /**Desbordado oculto**/
+}
+.SlideCarro a{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    display: none;
+}
+.SlideCarro a:first-child{
+    display: block;
+}
+
+@media(min-width: 768px) {
+    .SlideCarro{
+        max-width: 800px;
+        width: 25%;
+        height: 380px;
+        overflow: hidden; /**Desbordado oculto**/
+        position: relative;
+        margin-left: 40%;
+        padding-left: 2px;
+    }
+    .SlideCarro a{
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        display: none;
+    }
+    .SlideCarro a:first-child{
+        display: block;
+    }
+}
+
+
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+    align-self: center;
+    margin-top: 20px;
+}
+
+footer p{
+    width: 80%;
+    padding-top: 1%;
+}
+.Social{
+    width: 99%;
+    padding: 20px;
+}
+@media(min-width: 768px) {
+    .Social{
+        width: 99%;
+        margin-left:82%;
+        padding: 20px;
+    }
+}
+
+.Social a{
+    text-decoration: none;
+    padding: 4px;
+    margin: 4px;
+}
+
+
